@@ -1,0 +1,3 @@
+LOAD DATA INPATH '/user/hdfs/nigstwitter/2015/02/15/21'
+INTO TABLE `default.stocktweets`
+PARTITION (datehour='2015021521');
